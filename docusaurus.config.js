@@ -2,27 +2,34 @@ const path = require("path");
 
 module.exports = {
   title: 'Crypto Comix!',
-  tagline: 'The First DAO Owned Local Comic Shop',
-  url: 'priceless-jennings-036d13.netlify.app',
-  baseUrl: '/',
+  tagline: 'A community owned and operated comic shop',
+  url: 'https://burrrata.github.io',
+  baseUrl: '/crypto-comix/',
   favicon: 'img/favicon.ico',
-  organizationName: 'CryptoComix', // Usually your GitHub org/user name.
-  projectName: 'Crypto Comix', // Usually your repo name.
+  organizationName: 'burrrata', // Usually your GitHub org/user name.
+  projectName: 'crypto-comix', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Crypto Comix",
       logo: {
         alt: 'Crypto Comix!',
-        //src: 'img/Juris-Logo-Badge.png',
+        src: 'img/logo.png',
       },
       links: [
         {
-          to: 'docs',activeBasePath: 'docs/', label: 'Docs', position: 'right',
+          to: 'docs',
+          activeBasePath: 'docs/',
+          label: '📜 Docs',
+          position: 'right'
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        {
+          href: 'https://rinkeby.aragon.org/#/cryptocomixxx/',
+          label: '🐄 CAO',
+          position: 'right',
+        },
         {
           href: 'https://github.com/JurisProject/crypto-comix',
-          label: 'GitHub',
+          label: '💻 GitHub',
           position: 'right',
         },
       ],
@@ -34,12 +41,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: '🔭 Overview',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: '🗺️ Cooperative Structure',
+              to: 'docs/doc3',
+            },
+            {
+              label: '🚀 Deployment Instructions',
+              to: 'docs/',
             },
           ],
         },
@@ -47,12 +58,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: '#',
+              label: '💬 Chat',
+              href: 'https://discord.gg/259a376',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/getjuris',
+              label: '💻 Source Code',
+              href: 'https://github.com/burrrata/crypto-comix',
             },
           ],
         },
@@ -60,17 +71,16 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: '📰 Blog',
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/jurisproject',
+              label: '🦜 Twitter',
+              href: 'https://twitter.com/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Juris, PBC. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,13 +93,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/burrrata/crypto-comix/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/burrrata/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/scss/index.scss'),

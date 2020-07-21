@@ -1,15 +1,17 @@
 ---
 id: doc1
-title: Juris Manifesto
-sidebar_label: Manifesto
+title: Overview
+sidebar_label: Overview
 ---
 
-Juris is a a project built around the belief that public problems require open solutions. We are a community of legal engineers who are building software to make the legal system open, accessible, and fair for everyone. 
+![Crypto Comix](https://i.imgur.com/aG625BZ.jpg)
 
-The United States judicial system is a branch of government. It is a public system of massive scale. It serves 100s of million people per year. Yet it meets only 22% of demand for access to justice. We believe there is no way to meet this scale, and repair the failings in this system without an open source, community driven effort. The price of access to the tools of the legal system--and their use to enforce your rights as a citizen--should be as close to free as possible.
+CryptoComix is a small local comic book shop.
 
-As a community, our core values are inclusion, education, and creation. This means all are welcome to contribute, we will help your become a better legal engineer, and we will all do it by actually building things to make a better legal system. The time for talking has passed.
+In the late 90s, early 2000's comic books were still big business.
 
-All code and content contributed to the [Juris Project Public Code Repository](https://github.com/jurisproject/) will remain open source and free to use in perpetuity. By committing code or content to this repository, you agree to these terms.
+As digital has taken hold, what were once city or nation-wide chains of comic shops have splintered, but the local comic shop is alive and well. There is still a strong consumer base for old school books, indie books, and collectibles. Their communities are driven by local shops, where they also congregate to buy books, play games, and spend time with their friends.
 
-Browse this handbook for more information on the how we are tackling this problem, and how to take part.
+Hit especially hard by COVID, CryptoComix is struggling to make rent without their usual foot traffic, and there are a few hundred community members super bummed that the place might close.
+
+*Can we DAO this up to save CryptoComix?*
