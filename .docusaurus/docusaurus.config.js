@@ -1,6 +1,6 @@
 export default {
   "plugins": [
-    "/home/testingtesting123/Documents/Dev/burrrata/crypto-comix/node_modules/docusaurus-plugin-sass"
+    "/home/testingtesting123/Documents/Code/crypto-comix/node_modules/docusaurus-plugin-sass"
   ],
   "themes": [],
   "customFields": {},
@@ -21,6 +21,12 @@ export default {
         {
           "href": "https://rinkeby.aragon.org/#/cryptocomixxx/",
           "label": "🐄 CAO",
+          "position": "right"
+        },
+        {
+          "to": "page",
+          "activeBasePath": "page/",
+          "label": "Build your own!",
           "position": "right"
         },
         {
@@ -92,7 +98,7 @@ export default {
       {
         "docs": {
           "homePageId": "doc1",
-          "sidebarPath": "/home/testingtesting123/Documents/Dev/burrrata/crypto-comix/sidebars.js",
+          "sidebarPath": "/home/testingtesting123/Documents/Code/crypto-comix/sidebars.js",
           "editUrl": "https://github.com/burrrata/crypto-comix/edit/master/website/"
         },
         "blog": {
@@ -100,7 +106,7 @@ export default {
           "editUrl": "https://github.com/burrrata/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/home/testingtesting123/Documents/Dev/burrrata/crypto-comix/src/scss/index.scss"
+          "customCss": "/home/testingtesting123/Documents/Code/crypto-comix/src/scss/index.scss"
         }
       }
     ]

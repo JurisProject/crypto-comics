@@ -1,0 +1,38 @@
+{
+ "pages": [
+  {
+   "name": "Your Information",
+   "elements": [
+    {
+     "type": "text",
+     "name": "NAME",
+     "title": "Organization Name",
+     "description": "What is the name of your entity?",
+     "isRequired": true
+    },
+   {
+     "type": "text",
+     "name": "PURPOSE",
+     "title": "Organization purpose",
+     "description": "What is the purpose of your entity?",
+     "isRequired": true
+    },
+    {
+     "type": "text",
+     "name": "DAO-ADDRESS",
+     "title": "Organization address",
+     "description": "What is the Ethereum address of your entity?",
+     "isRequired": true
+    },
+    {
+     "type": "text",
+     "name": "TOKEN",
+     "title": "Organization token",
+     "description": "What is the token symbol of your entity?",
+     "isRequired": true
+    }
+   ],
+   "title": "A Sample Interview"
+  }
+ ]
+}
