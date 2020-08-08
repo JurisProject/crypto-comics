@@ -1,73 +1,74 @@
 {
-  "pages": [
-   {
-    "name": "Your Information",
-    "elements": [
-     {
-      "type": "text",
-      "name": "NAME",
-      "title": "Organization Name",
-      "description": "What is the name of your entity?",
-      "isRequired": true
-     },
-     {
-      "type": "text",
-      "name": "TOKEN",
-      "title": "Organization Token",
-      "description": "What is the token symbol of your entity?",
-      "isRequired": true
-     },
-     {
-      "type": "text",
-      "name": "PURPOSE",
-      "title": "Organization Purpose",
-      "description": "What is the purpose of your entity?",
-      "isRequired": true
-     },
-     {
-      "type": "text",
-      "name": "PHYSICALADDRESS",
-      "title": "Organization Physical Address",
-      "description": "What is the Ethereum address of your entity?",
-      "isRequired": true
-     },
-     {
-      "type": "text",
-      "name": "MAILINGADDRESS",
-      "title": "Organization Mailing Address",
-      "description": "What is the Ethereum address of your entity?",
-      "isRequired": true
-     },
-     {
-      "type": "dropdown",
-      "name": "COMPTYPE",
-      "title": "Company Type",
-      "description": "If unsure choose \"mutual benefit.\"",
-      "choices": [
-       {
-        "value": "public",
-        "text": "Public Benefit"
-       },
-       {
-        "value": "mutual",
-        "text": "Mutual Benefit"
-       }
-      ]
-     },
-     {
-      "type": "checkbox",
-      "name": "Agreement",
-      "title": "Agreement",
-      "isRequired": true,
-      "choices": [
-       {
-        "value": "item1",
-        "text": "By checking this box you certify your agreement to the creation of the above Cooperative Autonomous Organization, and the associate code  deference agreement."
-       }
-      ]
-     }
-    ],
-    "title": "\"Cooperative Autonomous Organization\" Generator"
-   }
-  ]
- }
+	"pages": [
+		{
+			"name": "Your Information",
+			"elements": [
+				{
+					"type": "text",
+					"name": "NAME",
+					"title": "Organization Name",
+					"description": "What is the name of your entity?",
+					"isRequired": true
+				},
+				{
+					"type": "text",
+					"name": "TOKEN",
+					"title": "Organization Token",
+					"description": "What is the token symbol of your entity?",
+					"isRequired": true
+				},
+				{
+					"type": "text",
+					"name": "PURPOSE",
+					"title": "Organization Purpose",
+					"description": "What is the purpose of your entity?",
+					"isRequired": true
+				},
+				{
+					"type": "text",
+					"name": "PHYSICALADDRESS",
+					"title": "Organization Physical Address",
+					"description": "What is the Ethereum address of your entity?",
+					"isRequired": true
+				},
+				{
+					"type": "text",
+					"name": "MAILINGADDRESS",
+					"title": "Organization Mailing Address",
+					"description": "What is the Ethereum address of your entity?",
+					"isRequired": true
+				},
+				{
+					"type": "dropdown",
+					"name": "COMPTYPE",
+					"title": "Company Type",
+					"description": "If unsure choose \"mutual benefit.\"",
+					"choices": [
+						{
+							"value": "public",
+							"text": "Public Benefit"
+						},
+						{
+							"value": "mutual",
+							"text": "Mutual Benefit"
+						}
+					]
+				},
+				{
+					"type": "checkbox",
+					"name": "Agreement",
+					"title": "Agreement",
+					"isRequired": true,
+					"choices": [
+						{
+							"value": "item1",
+							"text": "By checking this box you certify your agreement to the creation of the above Cooperative Autonomous Organization, and the associate code  deference agreement."
+						}
+					]
+				}
+			],
+			"title": "\"Cooperative Autonomous Organization\" Agreement Generator",
+			"description": "Powered by Juris"
+		}
+	]
+}
